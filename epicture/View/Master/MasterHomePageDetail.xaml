@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="epicture.View.Master.MasterHomePageDetail"
+             Title="Detail">
+  <StackLayout Padding="10">
+        <Label x:Name="LabelHeader" Text="Bonjour, vous êtes connecté !"/>
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Entry x:Name="EntrySearch" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button x:Name="SearchButton" Text="Rechercher" HorizontalOptions="CenterAndExpand" Clicked="onSearchClicked"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button x:Name="PreviousButton" Text="Précédent" Clicked="onPreviousClicked" IsVisible="False"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button x:Name="NextButton" Text="Suivant" Clicked="onNextClicked" IsVisible="False"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button x:Name="FavoriteButton" Text="Favoris" Clicked="onFavoriteClicked" VerticalOptions="Center" IsVisible="False"/>
+            </StackLayout>
+        </StackLayout>
+        <Label x:Name="TitleLabel" Text="" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="false"/>
+        <Label x:Name="DescriptionLabel" Text="" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="false"/>
+        <Image x:Name="ViewerImage" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Aspect="AspectFill"/>
+    </StackLayout>
+</ContentPage>

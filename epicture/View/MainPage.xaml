@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="epicture.MainPage">
+
+    <StackLayout>
+        <!--<Label Text="Nom d'utilisateur ou email:"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="Username" Text=""/>
+        <Label Text="Mot de passe:"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="Password" Text="" IsPassword="True"/>-->
+        <!--
+        <Button Text="Connexion" Clicked="Button_Connection_Clicked"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />-->
+        <WebView x:Name="LoginViewer"
+            HeightRequest="1000"
+            WidthRequest="1000"/>
+        <!--<Label x:Name="State" Text="Wé"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>-->
+
+    </StackLayout>
+
+</ContentPage>
