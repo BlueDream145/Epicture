@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="epicture.View.Account.AccountFavoritesPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                    <Button x:Name="PreviousButton" Text="Précédent" Clicked="onPreviousClicked" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                    <Button x:Name="NextButton" Text="Suivant" Clicked="onNextClicked" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                    <Button x:Name="RemoveButton" Text="Supprimer" Clicked="onDeleteClicked" VerticalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+            <Label x:Name="StatusLabel" Text="" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Image x:Name="ViewerImage" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Aspect="AspectFill"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

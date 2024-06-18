@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Work\epicture\epicture\bin\Debug\netstandard2.0\epicture.deps.json
+C:\Users\User\Desktop\Work\epicture\epicture\bin\Debug\netstandard2.0\epicture.dll
+C:\Users\User\Desktop\Work\epicture\epicture\bin\Debug\netstandard2.0\epicture.pdb
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\epicture.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\epicture.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\epicture.AssemblyInfo.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\epicture.dll
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\epicture.pdb
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\View\App.xaml.g.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\View\Master\MasterHomePage.xaml.g.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\View\Master\MasterHomePageDetail.xaml.g.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\View\Master\MasterHomePageMaster.xaml.g.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\View\Account\AccountFavoritesPage.xaml.g.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\View\Account\AccountUploadPage.xaml.g.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\View\Account\Accoun tImagesPage.xaml.g.cs
+C:\Users\User\Desktop\Work\epicture\epicture\obj\Debug\netstandard2.0\XamlC.stamp
